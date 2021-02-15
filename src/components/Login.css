@@ -1,0 +1,29 @@
+.login {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(1, 181, 165);
+}
+
+.login__logo > img {
+    object-fit: contain;
+    max-height: 350px;
+}
+
+.login__logo > h1 {
+    text-align: center;
+}
+
+.login > button {
+    width: 300px;
+    padding: 10px;
+    background-color: rgb(235, 235, 235);
+    color: #474747;
+    font-weight: 800;
+}
+
+.login > button:hover {
+    background-color: gainsboro;
+    color: #383838;
+}
